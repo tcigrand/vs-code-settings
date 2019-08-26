@@ -1,0 +1,19 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "cmd+s",
+    "command": "workbench.action.files.saveAll"
+  },
+  {
+    "key": "alt+cmd+s",
+    "command": "-workbench.action.files.saveAll"
+  },
+  {
+    "key": "shift+cmd+e",
+    "command": "clojureVSCode.evalAndShowResult"
+  },
+  {
+    "key": "shift+cmd+e",
+    "command": "go.toggle.test.file"
+  }
+]

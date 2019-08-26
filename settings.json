@@ -1,0 +1,16 @@
+{
+    "workbench.editor.enablePreview": false,
+    "files.trimTrailingWhitespace": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "window.zoomLevel": 1,
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.formatOnSave": true
+    },
+    "explorer.confirmDragAndDrop": false,
+    "git.autofetch": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+}
