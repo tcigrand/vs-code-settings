@@ -2,16 +2,109 @@
     "workbench.settings.editor": "json",
     "workbench.editor.enablePreview": false,
     "files.trimTrailingWhitespace": true,
-    "editor.tabSize": 2,
+    "editor.tabSize": 4,
     "editor.insertSpaces": true,
-    "window.zoomLevel": 1,
+    "javascript.preferences.quoteStyle": "single",
+    "prettier.singleQuote": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.tslint": true
+    },
     "[javascript]": {
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
     },
     "[typescript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.formatOnSave": true
+    },
+    "[scss]": {
+        "editor.formatOnSave": true
+    },
+    "[python]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "editor.formatOnSave": true
+    },
+    "[rust]": {
         "editor.formatOnSave": true
     },
     "explorer.confirmDragAndDrop": false,
     "git.autofetch": true,
     "typescript.updateImportsOnFileMove.enabled": "always",
+    "diffEditor.renderSideBySide": false,
+    "workbench.colorCustomizations": {
+        "diffEditor.removedTextBackground": "#8f1b1b",
+        "diffEditor.insertedTextBackground": "#2e6a11",
+        "diffEditor.insertedTextBorder": "#2e6a11",
+        "diffEditor.removedTextBorder": "#8f1b1b",
+        "diffEditor.diagonalFill": "#2f00ff"
+    },
+    "gitlens.views.repositories.files.layout": "list",
+    "gitlens.gitCommands.skipConfirmations": [
+      "fetch:command",
+      "stash-push:command",
+      "switch:command",
+      "push:command",
+      "branch-create:command"
+    ],
+    "rust.mode": "legacy",
+    "files.associations": {
+      "*.py": "python"
+    },
+    "files.exclude": {
+      "**/__pycache__": true
+    },
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "black",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "python.languageServer": "Pylance",
+      "angular.experimental-ivy": true,
+      "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+      },
+      "redhat.telemetry.enabled": true,
+      "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+      },
+      "diffEditor.ignoreTrimWhitespace": false,
+      "window.zoomLevel": 1,
+      "git.enableSmartCommit": true,
+      "yaml.customTags": [
+        "!And",
+        "!And sequence",
+        "!If",
+        "!If sequence",
+        "!Not",
+        "!Not sequence",
+        "!Equals",
+        "!Equals sequence",
+        "!Or",
+        "!Or sequence",
+        "!FindInMap",
+        "!FindInMap sequence",
+        "!Base64",
+        "!Join",
+        "!Join sequence",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!Sub sequence",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!ImportValue sequence",
+        "!Select",
+        "!Select sequence",
+        "!Split",
+        "!Split sequence"
+      ],
+      "yaml.validate": false
 }
